@@ -1,10 +1,10 @@
 CC = gcc
 CFLAGS = -Wall
 
-all: ibonacci
+all: fibonacci
 
 your_program: fibonacci.c
     $(CC) $(CFLAGS) -o fibonacci fibonacci.c
 
 clean:
-    rm -f ibonacci
+    rm -fibonacci
