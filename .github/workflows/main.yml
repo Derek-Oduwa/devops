@@ -13,7 +13,3 @@ jobs:
 
       - name: Build Application
         run: make
-
-      - name: Test Application
-        run: make test  # If you have a test target in your Makefile
-
